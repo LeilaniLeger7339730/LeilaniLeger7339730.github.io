@@ -45,20 +45,20 @@ var circles = []
 
 
         // TODO 7 : Use a loop to create multiple circles
-        else if (circle.x < 0) {
+       drawCircle()
 
-                circle.x = canvas.width;
+drawCircle()
 
-            } else if (circle.y > canvas.height) {
+drawCircle()
 
-                circle.y = 0;
+drawCircle()
 
-            } else if (circle.y < 0) {
+drawCircle()
+ for (var loopsCompleted = 0; loopsCompleted < 175; loopsCompleted++) {
 
-                circle.y = canvas.height;
+            drawCircle();
 
-            }
-
+        }
 
 
         ///////////////////
